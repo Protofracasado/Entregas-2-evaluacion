@@ -1,0 +1,47 @@
+/* estructura */
+body {
+    background-color: wheat;
+}
+
+header {
+    border-bottom: black 1px solid;
+}
+
+/* div´s */
+div.carta {
+    position: relative;
+}
+div.cafe {
+    display: block;
+    margin-left: 35%;
+}
+div.contacto {
+    display: block;
+    margin-left: 78%;
+}
+
+/* Etiquetas */
+h1.title {
+    text-align: center;
+    color: brown;
+}
+a.parfCarta {
+    color: brown;
+}
+a.parfCafe {
+    color: brown;
+}
+a.parfContacto {
+    color: brown;
+}
+
+/* Imagenes */
+img.carta {
+    width: 10%;
+}
+img.caffe {
+    width: 35%;
+}
+img.contact {
+    width: 25%;
+}

@@ -1,0 +1,40 @@
+/* Eqtiuetas de contenido */
+h1.title {
+    background-color: antiquewhite;
+    text-align: center;
+}
+p.secondParaf {
+    margin-top: 0%;
+}
+p.thirdParaf {
+    display: inline;
+    background-color: yellow;
+}
+
+/* Etiquetas de estructuracion */
+
+nav {
+    background-color: greenyellow;
+    text-align: center;
+}
+main {
+    background-color: orange;
+}
+span.frames {
+    margin-bottom: 0%;
+}
+footer {
+    background-color: blue;
+    text-align: center;
+    
+}
+
+/* Frames */
+iframe.map {
+    display: inline;
+}
+
+iframe.videoYT {
+    display:inline;
+    margin-left: 0%;
+}

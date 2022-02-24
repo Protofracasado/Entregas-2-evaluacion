@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--By Alejandro Vazquez-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Accede a tu Área Clientes</h1>
+    </header>
+    <main>
+        <div class="main">
+            <div class="formularioUno">
+            <form action="formularios1.php">
+                <p>Elige tu Documento</p>
+                <p><input type="radio" name="doc" value="DNI"> DNI o NIE</p>
+                <p><input type="radio" name="doc" value="passport"> Pasaporte</p>
+                <p class="numDoc">Numero de documento</p>
+                <input type="text" name="docNumber" id="numberDoc">
+                <p class="numDoc">Fecha de nacimiento</p>
+                <input type="date" name="birth" id="birthDate">
+                <p><input type="checkbox" name="remember" id="remember">Recordar <a href=""> ?</a></p>
+                <input type="button" value="Entrar">
+            </form>
+                <ul>
+                    <li class="lista"><a href="" class="enlace"> Acceder con DNIe </a></li>
+                    <li class="lista"><a href="" class="enlace"> Mas informacion sobre seguirdad</a></li>
+                </ul>
+            </div>
+            <div class="formularioDos">
+                <p>Empieza creando tu usuario</p>
+                <form action="formularioDos.php">
+                    <input type="text" name="name" class="nameID" value="Nombre">
+                    <p><input type="text" name="srnameOne" value="1ª Apellido"> <input type="text" class="srnameTwo" value="2º Apellido"></p>
+                    <select name="typeDoc" id="IDtype">
+                        <option value="0" selected>DNI/NIE</option>
+                        <option value="1">NIE</option>
+                        <option value="2">DNI</option>
+                    </select> <input type="text" value="Numero de Documento">
+                    <p><input type="number" name="movil" value="34"> <input type="email" name="email" id="email"></p>
+                </form>
+            </div>
+            <div class="formularioTres">
+                <h1 class="new">¿Eres Nuevo?</h1>
+                <p class="center">Registrate para guardar tu informacion y hacer tus pedidos de forma mas facil y rapida</p>
+                <p class="numDoc">Email</p>
+                <input type="email" name="email" id="email">
+                <p class="numDoc">Telefono</p>
+                <input type="number" name="number" id="number">
+                <p class="numDoc">Contraseña</p>
+                <input type="password" name="contraseña" id="contraseña">
+                <p class="numDoc">Confirma Contraseña</p>
+                <input type="password" name="Confirmcontraseña" id="Confirmcontraseña">
+                <p><input type="checkbox" name="derecho" id="derecho"> He leido y accepto Politica de provacidad</p>
+                <p><input type="checkbox" name="comercio" id="comercio">Si accepto el informacion para comerecio</p>
+                <input type="button" value="Crea tu cuenta">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

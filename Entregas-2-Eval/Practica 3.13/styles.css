@@ -1,0 +1,158 @@
+body {
+    font-family: 'Gotham-Book', verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #3d3d3d;
+    background-color: #ececec;
+}
+
+
+p.landParf {
+    text-align: right;
+}
+a.lang {
+    text-decoration: none;
+}
+a.lang:hover {
+    text-decoration: underline;
+        cursor: pointer;
+}
+p.doc{
+    margin-bottom: 0%;
+}
+a.passwd {
+    color: rgb(241, 53, 53);
+    text-decoration: none;
+    font-size: 11px;
+}
+a.passwd:hover {
+    color: red;
+        text-decoration: underline;
+            cursor: pointer;
+}
+input.acceder {
+    background-color: rgb(184, 76, 76);
+        border-radius: 30px;
+            border: 1px solid transparent;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 3.5%;
+                padding-right: 3.5%;
+                color: white;
+
+}
+input.acceder:hover {
+    background-color: rgb(138, 57, 57);
+        cursor: pointer;
+            
+}
+input.grua {
+    border-radius: 30px;
+        background-color: white;
+            border: 0.5px solid rgb(184, 76, 76);
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+}
+input.grua:hover {
+    background-color: rgb(145, 16, 44);
+        color: white;
+            cursor: pointer;
+}
+a.regis {
+    font-family: 'Gotham-Book', verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #3d3d3d;
+}
+div.main{
+    display: grid;
+        grid-template-columns: repeat(1, 2fr);
+            gap: 1em;
+                margin-top: 0%;
+                margin-left: 10%;
+                    background-color: white;
+    width: 70%;
+        text-align: center;
+}
+h1.titleF {
+    text-align: center;
+}
+p.priceUno {
+    background-color: #d9384a;
+        border-radius: 30px;
+            width: max-content;
+                padding-left: 2%;
+                padding-right: 2%;
+}
+
+div.header {
+    grid-row: 1;
+}
+div.title {
+    grid-row: 2;
+}
+div.usr {
+    grid-row: 3;
+}
+div.passwd {
+    grid-row: 4;
+}
+div.check {
+    grid-row: 5;
+        font-size: 11px;
+        margin-top: 2%;
+            margin-bottom: 2%;
+}
+div.forget {
+    grid-row: 6;
+    margin-top: 2%;
+        margin-bottom: 2%;
+}
+div.bottonUno {
+    grid-row: 7;
+    margin-top: 2%;
+        margin-bottom: 2%;
+}
+div.bottonDos {
+    grid-row: 8;
+        margin-bottom: 2%;
+}
+div.register {
+    grid-row: 9;
+}
+footer {
+    display: grid;
+        grid-template-columns: repeat(3, 2fr);
+                margin-top: 15%;
+                margin-left: 15%;
+                    background-color: white;
+    width: 70%;
+        text-align: center;
+}
+div.titleFoot {
+    grid-column: 1/4;
+}
+div.car {
+	grid-column: 1;
+        margin-top: 0%;
+}
+div.bike {
+	grid-column: 2;
+        margin-top: 0%;
+}
+div.house {
+	grid-column: 3;
+        margin-top: 0%;
+}
+div.car:hover {
+    background-color: #d9384a;
+        transition: 0.5s;
+}
+div.bike:hover {
+    background-color: #d9384a;
+        transition: 0.5s;
+}
+div.house:hover {
+    background-color: #d9384a;
+        transition: 0.5s;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0%;
+        background-color: grey;
+}
+header {
+    background-color: black;
+        color: orange;
+            text-align: center;
+                padding: 0.5%;
+}
+div.main {
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+            margin-top: 20%;
+                text-align: center;
+}
+
+div.taquilla {
+    grid-column: 1/0;
+}
+input.buttonMiddle:hover {
+    color: rgb(194, 134, 22);
+        background-color: black;
+            border-radius: 12%;
+}
+input.buttonLeft:hover {
+    color: rgb(194, 134, 22);
+        background-color: black;
+            border-radius: 12%;
+}
+input.buttonRight:hover {
+    color: rgb(194, 134, 22);
+        background-color: black;
+            border-radius: 12%;
+}
+
+div.plantilla {
+    grid-column: 2/0;
+}
+div.contacto {
+    grid-column: 3/0;
+}

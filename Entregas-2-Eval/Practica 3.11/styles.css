@@ -1,0 +1,51 @@
+* {
+    background-color: tomato;
+    margin: 0px;
+}
+
+header,h1.titulo {
+    background-color: cornflowerblue;
+    margin: 0px;
+    text-align: center;
+}
+
+p.parfUno {
+    margin-top: 10%;
+        margin-left: 2%;
+            margin-bottom: 0px;
+}
+table.tablaUno {
+    border: red 1px solid;
+        margin-left: 2%;
+}
+
+p.parfDos {
+    margin-top: 10%;
+        margin-left: 2%;
+            margin-bottom: 0px;
+}
+table.tablaDos {
+    border: red 1px solid;
+        margin-left: 2%;
+}
+td.filaUno {
+    border: blue 4px solid;
+}
+
+p.parfTres {
+    margin-top: 10%;
+        margin-left: 2%;
+            margin-bottom: 0px;
+}   
+
+table.tablaTres {
+    border-style: solid;
+        border-color: cadetblue;
+            background-color: teal;
+                display: inline-block;
+                    margin-left: 2%;
+                        text-align: center;
+}
+td.size {
+    width: 100px;
+}

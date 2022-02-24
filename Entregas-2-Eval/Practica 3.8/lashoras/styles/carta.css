@@ -1,0 +1,29 @@
+body {
+    background-color: wheat;
+}
+
+h1.title {
+    color: brown;
+    text-align: center;
+}
+
+p.panier {
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    color: brown;
+}
+p.tartines {
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    color: brown;
+}
+p.napolitan {
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    color: brown;
+}
+p.croissant {
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    color: brown;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: wheat;
+}
+h1.title {
+    color: brown;
+    text-align: center;
+}
+p.parfUno {
+    color: brown;
+}
+p.parfDos {
+    color: brown;
+}

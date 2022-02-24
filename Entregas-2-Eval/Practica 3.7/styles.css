@@ -1,0 +1,8 @@
+span.negrita {
+    font-style: oblique;
+}
+h1.titulo {
+    text-align: center;
+    font-style: italic;
+    background-color: burlywood;
+}

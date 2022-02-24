@@ -1,0 +1,14 @@
+body {
+    background-color: wheat;
+}
+
+h1.contact {
+    text-align: center;
+    color: brown;
+    border-bottom: black 1px solid;
+
+}
+
+main {
+    color: brown;
+}
